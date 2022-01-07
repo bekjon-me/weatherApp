@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden!important;
+}
+
+body {
+    overflow: hidden!important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    position: absolute;
+    background: url("background-weather.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+header h2 {
+    text-align: center;
+    margin-top: 3rem;
+    font: 50px;
+    color: aliceblue;
+}
+
+header form {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+header form input#userLocation {
+    width: 40vh;
+    height: 5vh;
+    background-color: rgba(28, 86, 246, 0.281);
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid;
+    border-bottom-color: black !important;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+header form input#userLocation:focus {
+    outline: none;
+}
+
+header form input#userLocation::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.596);
+    text-align: center;
+}
+
+header form input#userLocation:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.596);
+    text-align: center;
+}
+
+header form input#userLocation::-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.596);
+    text-align: center;
+}
+
+header form input#userLocation::placeholder {
+    color: rgba(0, 0, 0, 0.596);
+    text-align: center;
+}
+
+header form button#submitLocation {
+    padding: 5px 20px;
+    border: none;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.438);
+    font-size: 30px;
+}
+
+header .dates {
+    display: none;
+    margin: 40px auto;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0, 128, 0, 0.411);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+header h5 {
+    text-align: center;
+    font-size: 40px;
+}
+
+header .dates h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+header .dates h3 span {
+    margin-left: 5px;
+}
+
+@media screen and (max-width:767px) {
+    header {
+        text-align: center;
+    }
+    header .dates {
+        width: 80%;
+        margin: auto;
+    }
+    header form input#userLocation {
+        width: 30vh;
+    }
+}
+
+
+/*# sourceMappingURL=style.css.map */
