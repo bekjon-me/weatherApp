@@ -54,6 +54,8 @@ header form input#userLocation {
 
 header form input#userLocation:focus {
     outline: none;
+    width: 40vh;
+    height: 5vh;
 }
 
 header form input#userLocation::-webkit-input-placeholder {
