@@ -119,7 +119,7 @@ header .dates h3 span {
     }
     header .dates {
         width: 80%;
-        margin: auto;
+/*         margin: auto; */
     }
     header form input#userLocation {
         width: 30vh;
